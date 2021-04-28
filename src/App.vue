@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <PeopleList msg="Welcome Edis"/>
+    <router-view></router-view>
   </div>
+ 
 </template>
 
 <script>
-import PeopleList from './components/PeopleList.vue'
 
 export default {
   name: 'App',
   components: {
-    PeopleList
+ 
   }
 }
 </script>
